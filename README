@@ -26,8 +26,8 @@ sudo bash
 dnf update
 dnf groupinstall "Development Tools"
 dnf groupinstall "C Development Tools and Libraries"
-yum install ncurses-devel
-yum install parted-devel
+dnf install ncurses-devel
+dnf install parted-devel
 
 Compilation
 ===========
